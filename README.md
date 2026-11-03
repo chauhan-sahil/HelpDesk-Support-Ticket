@@ -22,9 +22,9 @@ Edit `Backend/.env` before starting the API:
 | --- | --- | --- |
 | `MONGODB_URI` | Yes | MongoDB connection string, including the database name |
 | `JWT_SECRET` | Yes | Random secret of at least 32 characters used to sign JWTs |
-| `ADMIN_NAME` | Yes | Name for the administrator bootstrapped at API startup |
-| `ADMIN_EMAIL` | Yes | Email for the administrator bootstrapped at API startup |
-| `ADMIN_PASSWORD` | Yes | Initial admin password; 12 or more characters, at most 72 UTF-8 bytes |
+| `ADMIN_NAME` | Yes | HelpDesk Admin |
+| `ADMIN_EMAIL` | Yes | admin@example.com |
+| `ADMIN_PASSWORD` | Yes | Admin@123456 |
 | `PORT` | No | API port; defaults to `5000` |
 | `FRONTEND_ORIGIN` | No | Allowed browser origin; defaults to `http://localhost:5173` |
 
